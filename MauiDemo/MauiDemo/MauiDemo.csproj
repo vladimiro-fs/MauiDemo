@@ -62,4 +62,16 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="FlyoutPageDemo.xaml">
+	    <Generator></Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MyPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="TabbedPageDemo.xaml">
+	    <Generator></Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
